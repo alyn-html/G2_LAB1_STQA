@@ -1,6 +1,10 @@
 # Test Suite: PyTodo Task-Creation Form
 
-Testers (pair): Alya Nabihah (22012109), <name 2>
+Testers (pair): GROUP 2 
+1. Alya Nabihah bt Ahmad Kamarzaman (22012109)
+2. Mohammad Syarafuddin Bin Mohd Zaidi (22006949)
+3. ⁠Nurul Hafizhah Binti Zainal Abidin (22005732)
+4. ⁠Muhammad Adam Muzir Bin Mohamad Azmi (22006801)
 Date: 21/09/2026
 Application URL: https://pytodo-lab.onrender.com/
 Browser and OS: Chrome 123 on Windows 11
