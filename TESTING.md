@@ -1,9 +1,9 @@
 # Test Suite: PyTodo Task-Creation Form
 
-Testers (pair): <name 1>, <name 2>
+Testers (pair): Alya Nabihah (22012109), <name 2>
 Date: 21/09/2026
 Application URL: https://pytodo-lab.onrender.com/
-Browser and OS: <e.g. Chrome 128 on Windows 11>
+Browser and OS: Chrome 123 on Windows 11
 
 ## 1. Partition table
 
@@ -51,7 +51,7 @@ Status: **Pass** (actual matches expected) or **Fail** (mismatch, candidate bug)
 | <GitHub Issue #6> | TC-09 | Priority rejects +3 | Low |
 | <GitHub Issue #7> | TC-10 | Due date accepts past dates | High |
 | <GitHub Issue #8> | TC-11 | Due date rejects dates more than 1 year ahead | Medium |
-| <GitHub Issue #9> | TC-15 | Estimated Hours shows incorrect validation message | Medium |
-| <GitHub Issue #10> | TC-12 | Estimated Hours rejects 0.1–0.4 | Medium |
-| <GitHub Issue #11> | TC-13 | Estimated Hours rejects leading decimal format | Low |
-| <GitHub Issue #12> | TC-14 | Estimated Hours rejects trailing decimal format | Low |
+| <GitHub Issue #9> | TC-12 | Estimated Hours rejects 0.1–0.4 | Medium |
+| <GitHub Issue #10> | TC-13 | Estimated Hours rejects leading decimal format | Low |
+| <GitHub Issue #11> | TC-14 | Estimated Hours rejects trailing decimal format | Low |
+| <GitHub Issue #12> | TC-15 | Estimated Hours shows incorrect validation message | Medium |
