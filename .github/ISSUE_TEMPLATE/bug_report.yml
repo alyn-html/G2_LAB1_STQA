@@ -1,0 +1,95 @@
+name: Bug report
+description: Report one defect found during Lab 1
+title: "[BUG] "
+labels: ["bug"]
+body:
+  - type: input
+    id: test_case
+    attributes:
+      label: Linked test case
+      description: The test case ID from your TESTING.md.
+      placeholder: "TC-05"
+    validations:
+      required: true
+
+  - type: input
+    id: environment
+    attributes:
+      label: Environment
+      description: Browser and operating system.
+      placeholder: "Chrome 128 on Windows 11"
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: Numbered steps that a classmate can follow exactly.
+      placeholder: |
+        1. Open the PyTodo form
+        2. Fill in the fields as shown below
+        3. Click Create task
+    validations:
+      required: true
+
+  - type: textarea
+    id: test_data
+    attributes:
+      label: Test data used
+      description: The exact value of every field you typed.
+      placeholder: |
+        Title: Write report
+        Priority: 6
+        Due date: tomorrow
+        Estimated hours: 2.5
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected result
+      description: What SPEC.md says should happen.
+      placeholder: "The task is rejected and the message names Priority."
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual result
+      description: What really happened, including any message or error page.
+      placeholder: "The task was created with ID 4."
+    validations:
+      required: true
+
+  - type: dropdown
+    id: severity
+    attributes:
+      label: Severity
+      options:
+        - Critical
+        - Major
+        - Minor
+    validations:
+      required: true
+
+  - type: dropdown
+    id: reproducibility
+    attributes:
+      label: How often does it happen?
+      options:
+        - Always
+        - Sometimes
+        - Once
+    validations:
+      required: true
+
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence
+      description: Drag a screenshot into this box.
+    validations:
+      required: false
